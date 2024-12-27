@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to use a file that hasn't been copied into the image yet.  The `Dockerfile` attempts to install dependencies listed in `requirements.txt` before the file is copied. The `Dockerfile_solution` provides the corrected version.
